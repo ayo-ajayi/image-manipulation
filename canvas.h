@@ -1,6 +1,8 @@
 #ifndef CANVAS_H
 #define CANVAS_H
 #include "pixelmatrix.h"
+#include <iostream>
+using namespace std;
 
 class canvas: public pixelmatrix{
     public:
