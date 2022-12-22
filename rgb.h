@@ -17,7 +17,7 @@ struct rgb
     ~rgb(){}
 };
 inline ostream & operator<<(ostream & s, const rgb & color){
-    return s<<color.r<<" "<<color.g<< " "<<color.b;
+    return s<<color.r<<' '<<color.g<<' '<<color.b;
 }
 inline istream & operator >>(istream & s, rgb&color){
     return s>>color.r>>color.g>>color.b;
